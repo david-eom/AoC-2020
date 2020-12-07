@@ -1,7 +1,7 @@
 # Part 1
 counts_1 = 0
 
-with open("day6.txt", "r") as f:
+with open("day06.txt", "r") as f:
 	for group in f.read().split("\n\n"):
 		group = group.replace("\n", "")
 		ans = []
@@ -16,7 +16,7 @@ print(counts_1)
 #Part 2
 counts_2 = 0
 
-with open("day6.txt", "r") as f:
+with open("day06.txt", "r") as f:
 	for group in f.read().split("\n\n"):
 		group = group.split("\n")
 		first = group[0]

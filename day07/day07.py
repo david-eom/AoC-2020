@@ -1,7 +1,7 @@
 # Part 1
 bag_types = {}
 
-with open("day7.txt", "r") as f:
+with open("day07.txt", "r") as f:
 	for bag in f.read().split("\n"):
 		for rep in ((" bags", ""), (" bag", ""), (".", "")):
 			bag = bag.replace(*rep)

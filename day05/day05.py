@@ -1,7 +1,7 @@
 # Part 1
 highest = 0
 
-with open("day5.txt", "r") as f:
+with open("day05.txt", "r") as f:
 	for line in f.readlines():
 		row = 0
 		column = 0
@@ -21,7 +21,7 @@ print(highest)
 # Part 2
 seats = []
 
-with open("day5.txt", "r") as f:
+with open("day05.txt", "r") as f:
 	for line in f.readlines():
 		row = 0
 		column = 0

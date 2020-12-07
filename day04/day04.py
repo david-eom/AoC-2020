@@ -1,7 +1,7 @@
 # Part 1
 valid_1 = 0
 
-with open("day4.txt", "r") as f:
+with open("day04.txt", "r") as f:
 	for entry in f.read().split("\n\n"):
 		entry = entry.replace("\n", " ")
 		colon = 0
@@ -17,7 +17,7 @@ print(valid_1)
 # Part 2
 valid_2 = 0
 
-with open("day4.txt", "r") as f:
+with open("day04.txt", "r") as f:
 	for entry in f.read().split("\n\n"):
 		entry = entry.replace(" ", "\n")
 		colon = 0
