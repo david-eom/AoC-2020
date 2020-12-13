@@ -39,7 +39,7 @@ for n in range(len(buses)):
 		continue
 
 result = 0
-# Initial time of one cycle is the just bus ID.
+# Initial time of one cycle is the just first bus' ID.
 cycle = int(buses[0])
 
 for ID, interval in IDs_n_intervals.items():
