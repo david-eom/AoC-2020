@@ -20,6 +20,7 @@ def make_plane(l):
 	return [["." for j in range(l)] for i in range(l)]
 
 
+def make_frame(h, l):
 	"""Make a frame of inactive cubes with height 2*h and side length l."""
 	return {i : make_plane(l) for i in range(-h, h + 1)}
 
