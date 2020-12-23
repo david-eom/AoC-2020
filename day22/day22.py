@@ -12,6 +12,7 @@ while len(p1_deck) and len(p2_deck):
 		p1_deck.extend([p1_card, p2_card])
 	else:
 		p2_deck.extend([p2_card, p1_card])
+
 winning_deck = p1_deck if len(p1_deck) else p2_deck
 length = len(winning_deck)
 
