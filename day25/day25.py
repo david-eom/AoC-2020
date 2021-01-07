@@ -21,3 +21,7 @@ def find_encry_key(sub_no, loop_size):
 # Check both encryption key.
 print(find_encry_key(card_key, find_loop_size(door_key)))
 print(find_encry_key(door_key, find_loop_size(card_key)))
+
+
+# Part 2
+# We wish you a merry Christmas and happy New Year.
